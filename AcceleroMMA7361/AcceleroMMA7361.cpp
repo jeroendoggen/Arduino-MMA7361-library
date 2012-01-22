@@ -1,6 +1,8 @@
 /****************************************************************************************
  * acceleroMMA7361.h - Library for retrieving data from the MMA7361 accelerometer.      *
- * For more information: variable declaration, changelog,... see AcceleroMMA7361.h	   *
+ * Copyright 2011-2012 Jef Neefs (neefs@gmail.com)                                      *
+ *    and Jeroen Doggen (jeroendoggen@gmail.com)                                        *
+ * For more information: variable declaration, changelog,... see AcceleroMMA7361.h      *
  ****************************************************************************************
  * This library is free software; you can redistribute it and/or                        *
  * modify it under the terms of the GNU Lesser General Public                           *
@@ -21,7 +23,6 @@
 /// For more information: variable declaration, changelog,... see AcceleroMMA7361.h
 /// </summary>
 
-#include <Arduino.h>
 #include <AcceleroMMA7361.h>
 
 /// <summary>

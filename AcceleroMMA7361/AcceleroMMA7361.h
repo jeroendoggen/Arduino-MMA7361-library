@@ -1,7 +1,7 @@
 /****************************************************************************************************************
  * acceleroMMA7361.h - Library for retrieving data from the MMA7361 accelerometer.                              *
- * Copyright 2011 Jef Neefs (neefs@gmail.com) and Jeroen Doggen (jeroendoggen@gmail.com)                        *
- * DATASHEET: http://www.sparkfun.com/datasheets/Components/General/MMA7361L.pdf                                *
+ * Copyright 2011-2012 Jef Neefs (neefs@gmail.com) and Jeroen Doggen (jeroendoggen@gmail.com)                   *
+ * Datasheet: http://www.sparkfun.com/datasheets/Components/General/MMA7361L.pdf                                *
  ****************************************************************************************************************
  * Version History:                                                                                             *
  *  Version 0.1: -get raw values                                                                                *
@@ -42,7 +42,13 @@
  ***************************************************************************************************************/
 #ifndef AcceleroMMA7361_h
 #define AcceleroMMA7361_h
-#include <Arduino.h>
+
+#if defined(ARDUINO) && ARDUINO >= 100
+  #include "Arduino.h"
+#else
+  #include "WProgram.h"
+  #include <pins_arduino.h>
+#endif
 
 class AcceleroMMA7361
 {
