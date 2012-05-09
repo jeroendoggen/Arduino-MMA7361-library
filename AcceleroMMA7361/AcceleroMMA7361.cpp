@@ -58,7 +58,7 @@ void AcceleroMMA7361::begin(int sleepPin, int selfTestPin, int zeroGPin, int gSe
 	pinMode(sleepPin, OUTPUT);
 	pinMode(selfTestPin, OUTPUT);
 	pinMode(zeroGPin, INPUT);
-	pinMode(gSelectPin, INPUT);
+	pinMode(gSelectPin, OUTPUT);
 	pinMode(xPin, INPUT);
 	pinMode(yPin, INPUT);
 	pinMode(zPin, INPUT);
