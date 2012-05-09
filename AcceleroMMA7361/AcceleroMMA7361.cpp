@@ -1,6 +1,6 @@
 /****************************************************************************************
  * acceleroMMA7361.h - Library for retrieving data from the MMA7361 accelerometer.      *
- * Copyright 2011-2012 Jef Neefs (neefs@gmail.com)                                      *
+ * Copyright 2011-2012 Jef Neefs (neefsjgmail.com)                                      *
  *    and Jeroen Doggen (jeroendoggen@gmail.com)                                        *
  * For more information: variable declaration, changelog,... see AcceleroMMA7361.h      *
  ****************************************************************************************
