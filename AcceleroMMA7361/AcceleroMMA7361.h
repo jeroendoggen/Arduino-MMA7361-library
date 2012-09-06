@@ -23,7 +23,7 @@
 //               -changed license to LGPL
 // Roadmap:
 //  Version 0.x: auto zero calibration http://www.freescale.com/files/sensors/doc/app_note/AN3447.pdf
-//  Version 0.x: We asumed the output to be linear, it is nearly linear but not exectly...
+//  Version 0.x: We asumed the output to be linear, it is nearly linear but not exactly...
 //
 // This library is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public
