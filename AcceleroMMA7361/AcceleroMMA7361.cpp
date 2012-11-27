@@ -24,6 +24,23 @@
 /// constructor
 AcceleroMMA7361::AcceleroMMA7361()
 {
+    _sleepPin=0;
+    _selfTestPin=0;
+    _zeroGPin=0;
+    _gSelectPin=0;
+    _xPin=0;
+    _yPin=0;
+    _zPin=0;
+    _offSets[0]=0;
+    _offSets[1]=0;
+    _offSets[2]=0;
+    _polarities[0]=0;
+    _polarities[1]=0;
+    _polarities[2]=0;
+    _refVoltage=0;
+    _average=0;
+    _sleep=false;
+    _sensi=false;
 }
 
 /// begin function to set pins: sleepPin = 13, selfTestPin = 12, zeroGPin = 11, gSelectPin = 10, xPin = A0, yPin = A1, zPin = A2.

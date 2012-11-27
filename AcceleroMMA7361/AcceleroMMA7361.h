@@ -1,5 +1,5 @@
 // acceleroMMA7361.h - Library for retrieving data from the MMA7361 accelerometer. 
-// Copyright 2011-2012 Jef Neefs (neefs@gmail.com) and Jeroen Doggen (jeroendoggen@gmail.com)
+// Copyright 2011-2012 Jef Neefs (neefsj@gmail.com) and Jeroen Doggen (jeroendoggen@gmail.com)
 // Datasheet: http://www.sparkfun.com/datasheets/Components/General/MMA7361L.pdf
 //
 // Version History:
